@@ -344,7 +344,7 @@ biplot.unfolding<-function(x,dimen=c(1,2),type=attr(x,"biplot_type"),
     if(is.na(tmatch1)) tmatch1 <- 0
     if(is.na(tmatch2)) tmatch2 <- 0
 
-    if(tmatch1==1 && require(MASS)) {
+    if(tmatch1==1) {
         D <- kde2d(x=x$A[,dimen[1]],y=x$A[,dimen[2]],lims=c(xlim,ylim))
         #D <- bkde2D(x=O$A[,dimen],range.x=list(xlim,ylim),bandwidth=c(0.3,0.3))
         #names(D) <- c("x","y","z")
@@ -362,7 +362,7 @@ biplot.unfolding<-function(x,dimen=c(1,2),type=attr(x,"biplot_type"),
     else if(tmatch1==4) lines(x$A[,dimen],type="b",lty=lty[1],pch=pch[1],lwd=lwd[1],col=col[1],cex=cex[1])
     else points(x$A[,dimen],pch=pch[1],col=col[1],cex=cex[1])
 
-    if(tmatch2==1 && require(MASS)) {
+    if(tmatch2==1) {
         D <- kde2d(x=x$B[,dimen[1]],y=x$B[,dimen[2]],lims=c(xlim,ylim))
         contour(D,add=TRUE,lty=contour.lty,col=contour.col)
     }

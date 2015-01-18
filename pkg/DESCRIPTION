@@ -1,10 +1,10 @@
 Package: munfold
 Type: Package
 Title: Metric Unfolding
-Version: 0.3-1
-Date: 2013-01-04
+Version: 0.3-2
+Date: 2015-01-18
 Author: Martin Elff
-Maintainer: Martin Elff <martin.elff@uni-konstanz.de>
+Maintainer: Martin Elff <elff@gmx.com>
 Description: This package provides Schoeneman's algorithm for metric
   multidimensional unfolding and Procrustes rotation of unfolding results.
 License: GPL-2
