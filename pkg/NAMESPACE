@@ -1,0 +1,15 @@
+import(stats,MASS)
+importFrom(memisc,relabel)
+export(
+      unfold,
+      procrustes
+)
+
+S3method(unfold,matrix)
+S3method(unfold,formula)
+
+S3method(print,unfolding)
+S3method(plot,unfolding)
+S3method(biplot,unfolding)
+S3method(relabel,unfolding)
+S3method(procrustes,unfolding)
