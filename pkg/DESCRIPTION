@@ -9,4 +9,5 @@ Description: This package provides Schoeneman's algorithm for metric
   multidimensional unfolding and Procrustes rotation of unfolding results.
 License: GPL-2
 LazyLoad: Yes
-Depends: memisc, MASS
+Imports: memisc, MASS, stats
+URL: http://www.martin-elff.net/software/munfold/

@@ -1,5 +1,5 @@
 import(stats,MASS)
-importFrom(memisc,relabel)
+importFrom(memisc,relabel,rowrename)
 export(
       unfold,
       procrustes
