@@ -10,4 +10,5 @@ Description: This package provides Schoeneman's algorithm for metric
 License: GPL-2
 LazyLoad: Yes
 Imports: memisc, MASS, stats
-URL: http://www.martin-elff.net/software/munfold/
+URL: http://www.martin-elff.net/software/munfold/,http://github.com/melff/munfold/
+
