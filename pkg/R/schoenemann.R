@@ -1,5 +1,5 @@
 #Metric Unfolding after:
-#Schönemann, Peter E. 1970.
+#Schoenemann, Peter E. 1970.
 #On Metric Multidimensional Unfolding.
 #Psychometrika 35,5:349-366
 #
@@ -16,7 +16,7 @@ schoenemann.unfolding <- function(   D,
                                         eigen.eps=1e-7
                                         # w=NULL,
                                     ){
-# Schönemann's Step [1]: Read in data
+# Schoenemann's Step [1]: Read in data
     D <- as.matrix(D)
     if(ncol(D)>nrow(D)) {
             D<-t(D)
@@ -150,5 +150,4 @@ schoenemann.unfolding <- function(   D,
     )
 }
 
-#debug(metric.unfolding)
 
