@@ -1,5 +1,9 @@
 import(stats,MASS)
 importFrom(memisc,relabel,rowrename)
+importFrom(graphics, 
+           abline,contour,lines,plot,
+           plot.default,points,rug,text)
+
 export(
       unfold,
       procrustes
