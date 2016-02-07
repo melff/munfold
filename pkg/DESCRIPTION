@@ -2,7 +2,7 @@ Package: munfold
 Type: Package
 Title: Metric Unfolding
 Version: 0.3.4
-Date: 2016-01-17
+Date: 2016-02-06
 Author: Martin Elff
 Maintainer: Martin Elff <martin@elff.eu>
 Description: Multidimensional unfolding using Schoeneman's algorithm for metric
