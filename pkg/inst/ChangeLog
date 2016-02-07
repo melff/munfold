@@ -1,4 +1,4 @@
-2015-01-17:
+2016-01-17:
   - Import from graphics, step up version number. No "This package" in DESCRIPTION file.
   - Rename NEWS to ChangeLog
 
