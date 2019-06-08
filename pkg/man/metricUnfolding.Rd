@@ -65,7 +65,7 @@ uapply(x,FUN)
   Determines how each of the two point sets of the unfolding
   solutions are represented in the biplot.
   Valid choices are
-  \itemize{
+  \describe{
     \item{\code{"points"}}{the respective set of points are plotted
       as points in the biplot.}
     \item{\code{"lines"}}{the points of the respective set
