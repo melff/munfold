@@ -1,7 +1,7 @@
 # munfold
 ## An R package which provides Schoenemann's algorithm for metric multidimensional unfolding and Procrustes rotation of unfolding results.
 
-![Current release on GitHub](https://img.shields.io/github/release/melff/munfold.svg)](https://github.com/melff/munfold/releases/)
+[![Current release on GitHub](https://img.shields.io/github/release/melff/munfold.svg)](https://github.com/melff/munfold/releases/)
 [![CRAN](https://www.r-pkg.org/badges/version/munfold)](https://cran.r-project.org/package=munfold)
 [![Total downloads from RStudio CRAN mirror](https://cranlogs.r-pkg.org/badges/grand-total/munfold)](https://cran.r-project.org/web/packages/munfold/index.html)
 [![Monthly downloads from RStudio CRAN mirror](https://cranlogs.r-pkg.org/badges/munfold)](https://cran.r-project.org/web/packages/munfold/index.html)
