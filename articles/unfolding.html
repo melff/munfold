@@ -135,7 +135,7 @@ groups of points.</p>
 Group 1: 24 points
 Group 2: 4 points
 
-Stress: 6.365309e-22</code></pre>
+Stress: 2.924325e-22</code></pre>
 <p>The printout indicates that <code><a href="../reference/metricUnfolding.html">unfold()</a></code> prefers a
 two-dimensional solution, which fits the observed squared distances
 perfectly.</p>
@@ -207,12 +207,12 @@ within groups seems to be okay, the overall configuration is wrong:</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">Dsq.uf0.cg</span><span class="op">&lt;-</span><span class="fu"><a href="../reference/metricUnfolding.html">unfold</a></span><span class="op">(</span><span class="va">Dsq</span>,squared<span class="op">=</span><span class="cn">TRUE</span>,method<span class="op">=</span><span class="st">"CG"</span><span class="op">)</span></span></code></pre></div>
 <pre><code>
-Stress for starting values 8.865703e-22
-Stress after translation 4.260252e-22
-Stress after rescaling 1.586723e-22
-Gradient: 6.612717e-07 -1.431095e-06
-Stress after rigid transformation 1.586723e-22
-Gradient: 6.612717e-07 -1.431095e-06 1.685203e-06 1.947622e-07</code></pre>
+Stress for starting values 4.073013e-22
+Stress after translation 1.957241e-22
+Stress after rescaling 7.289783e-23
+Gradient: 4.482754e-07 -9.700122e-07
+Stress after rigid transformation 7.289783e-23
+Gradient: 4.482754e-07 -9.700122e-07 1.142273e-06 1.320138e-07</code></pre>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">Dsq.uf0.cg</span></span></code></pre></div>
 <pre><code>
@@ -221,7 +221,7 @@ Gradient: 6.612717e-07 -1.431095e-06 1.685203e-06 1.947622e-07</code></pre>
 Group 1: 24 points
 Group 2: 4 points
 
-Stress: 1.331532e-22</code></pre>
+Stress: 6.117338e-23</code></pre>
 <p>We get a non-convergence warning, but the stress level is much lower
 and the reconstructed configuration looks okay:</p>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
@@ -241,7 +241,7 @@ are not squared.</p>
 Group 1: 24 points
 Group 2: 4 points
 
-Stress: 0.1655368</code></pre>
+Stress: 0.1659578</code></pre>
 <p>We get an additional spurious dimension and the reconstruction of the
 points is distorted:</p>
 <div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
@@ -258,7 +258,7 @@ distances <em>are</em> squared.</p>
 Group 1: 24 points
 Group 2: 4 points
 
-Stress: 800159.4</code></pre>
+Stress: 799815.6</code></pre>
 <p>Again we end up with a spurious additional dimension and a distorted
 configuration of the points:</p>
 <div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
