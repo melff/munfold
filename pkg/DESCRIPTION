@@ -10,5 +10,5 @@ Description: Multidimensional unfolding using Schoenemann's algorithm for metric
 License: GPL-2
 LazyLoad: Yes
 Imports: memisc, MASS, stats, graphics, hexbin
-URL: http://www.elff.eu/software/munfold/,http://github.com/melff/munfold/
+URL: https://melff.github.io/munfold/,https://github.com/melff/munfold/
 
