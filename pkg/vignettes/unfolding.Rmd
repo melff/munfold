@@ -2,7 +2,7 @@
 title: Metric unfolding with "munfold"
 output: rmarkdown::html_vignette
 vignette: >
-  % \VignetteIndexEntry{Approximate Inference for Multinomial Logit Models with Random Effects}
+  % \VignetteIndexEntry{Metric unfolding with "munfold"}
   % \VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 bibliography: munfold.bib
