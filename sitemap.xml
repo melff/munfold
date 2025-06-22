@@ -1,27 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://melff.github.io/munfold/404.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/articles/unfolding.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/index.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/reference/metricUnfolding.html</loc>
-  </url>
-  <url>
-    <loc>https://melff.github.io/munfold/reference/procrustes.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://melff.github.io/munfold/404.html</loc></url>
+<url><loc>https://melff.github.io/munfold/articles/index.html</loc></url>
+<url><loc>https://melff.github.io/munfold/articles/unfolding.html</loc></url>
+<url><loc>https://melff.github.io/munfold/authors.html</loc></url>
+<url><loc>https://melff.github.io/munfold/index.html</loc></url>
+<url><loc>https://melff.github.io/munfold/reference/index.html</loc></url>
+<url><loc>https://melff.github.io/munfold/reference/metricUnfolding.html</loc></url>
+<url><loc>https://melff.github.io/munfold/reference/procrustes.html</loc></url>
 </urlset>
+
