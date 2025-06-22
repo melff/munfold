@@ -13,7 +13,7 @@ Description: Multidimensional unfolding using Schoenemann's algorithm for metric
 License: GPL-2
 LazyLoad: Yes
 Imports: memisc, MASS, stats, graphics
-Suggests: knitr
+Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 URL: https://melff.github.io/munfold/,https://github.com/melff/munfold/
 
