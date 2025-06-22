@@ -1,2 +1,6 @@
-*
+/*
 !/pkg
+!/pkg/*
+!/.gitattributes
+!/.github
+!/README.md
