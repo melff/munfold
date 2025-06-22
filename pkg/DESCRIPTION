@@ -2,13 +2,14 @@ Package: munfold
 Type: Package
 Title: Metric Unfolding
 Version: 0.3.7
-Date: 2019-06-08
+Date: 2025-06-22
 Author: Martin Elff
 Maintainer: Martin Elff <martin@elff.eu>
 Description: Multidimensional unfolding using Schoenemann's algorithm for metric
    and Procrustes rotation of unfolding results.
 License: GPL-2
 LazyLoad: Yes
-Imports: memisc, MASS, stats, graphics, hexbin
-URL: https://melff.github.io/munfold/,https://github.com/melff/munfold/
+Imports: memisc, MASS, stats, graphics
+URL: https://melff.github.io/munfold/,http://github.com/melff/munfold/
+VignetteBuilder: knitr
 
