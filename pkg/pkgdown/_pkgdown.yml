@@ -1,3 +1,5 @@
 url: https://melff.github.io/munfold
 template:
-  package: preferably
+  bootstrap: 5
+  bootswatch: zephyr
+  light-switch: true
