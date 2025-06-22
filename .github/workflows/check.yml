@@ -5,7 +5,7 @@ on:
     branches: [main, master]
   pull_request:
 
-name: check.yml
+name: R-CMD-check
 
 permissions: read-all
 
